@@ -47,4 +47,5 @@ h2 {
   .container ul li {
     margin-top: 7px;
     padding-bottom: 3px;
+    border-bottom: 1px solid;
   }
