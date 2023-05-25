@@ -27,5 +27,24 @@ footer {
 h2 {
     width: 100%;
     flex-direction: column;
-
 }
+
+.container {
+    margin: auto;
+    max-width: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    padding-right: 35px;
+    font-family: arial;
+    font-size: 15px;
+  }
+  .container ul {
+    list-style-type: none;
+  }
+
+  .container ul li {
+    margin-top: 7px;
+    padding-bottom: 3px;
+  }
